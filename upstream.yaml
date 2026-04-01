@@ -1,0 +1,15 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/riscv-boom/riscv-boom
+  commit: af3023c5ef22d6a19e2f4608b29f61c37419c115
+  extracted_at: "2026-04-01T06:13:38Z"
+import:
+  rtl:
+    - path: "."
+      map_to: "rtl"
+  license:
+    - path: "BSD-3-Clause"
+license:
+  spdx: BSD-3-Clause
+  file: LICENSE
