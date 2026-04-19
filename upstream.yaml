@@ -13,3 +13,5 @@ import:
 license:
   spdx: BSD-3-Clause
   file: LICENSE
+
+metadata_locked: true
